@@ -1,0 +1,30 @@
+.login{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #1db954, #191414);
+}
+
+.login > img{
+    width: 100%;
+    max-width: 10%;
+}
+
+.login > a{
+    padding: 20px;
+    background-color: #1db954;
+    border-radius: 99px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none; /*Basically this will not let thet underline to come when we will define a link in a tag */
+    display: inline-block; /* Ensures proper padding and background application */
+    text-align: center; /* Centers text */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.1); /* 3D shadow effect */
+    transform: translateY(2px); /* Creates the lifting effect */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.login > a:hover {
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.2); /* Enhanced shadow on hover */
+    transform: translateY(0); /* Lifts the element back to its original position */
+}
