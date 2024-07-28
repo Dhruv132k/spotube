@@ -6,4 +6,4 @@ export const DataLayer = ({ initialState, reducer, children }) => (
     <DataLayerContext.Provider>
         {children}
     </DataLayerContext.Provider>
-) //the children in the component in DataLayer tag in index,js i.e. App refer to onenote ContextAPI page
+) //the children in the component in DataLayer tag in index,js i.e. App. Refer to onenote ContextAPI page
